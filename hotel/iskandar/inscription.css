@@ -1,0 +1,60 @@
+fieldset 
+{ 
+  align-content: center; justify-content: center; text-align: center;
+  width: 50vh; height: auto;
+  border: 0; border-radius: 16px; padding : 10px 20px;
+  background-color: rgba(255, 255, 255,0.5); 
+  font-weight: bold;
+  display: block;  position: relative; 
+  box-shadow : 
+  5px -10px 20px rgba(0, 0, 0, 0.25),
+  -5px 10px 20px rgba(0, 0, 0, 0.25);
+ }
+
+
+
+input:hover  ,button:hover,   select:hover,
+input:focus  ,button:focus, option:hover, option:focus,
+input:active ,button:active 
+{
+  border: 3px solid rgba(0, 0, 0, 0.6 );
+   background-color: rgba(0, 0, 0, 0.5 ); 
+}
+label
+{ display: inline-grid; text-align: left;
+}
+input { 
+  color: rgba(256, 256, 256,0.9);; letter-spacing: 0.12em;
+  border-radius: 15px; margin: 10px 10px;
+  padding-left: 6px;  
+  font-size: 120%;  font-weight: bold; /* background-image: url(../pics/image2.jpg); */
+  background-color: rgba(0, 0, 0,0.4);
+}
+select , option { padding-left: 12px;
+  border-radius: 15px; margin: 10px 10px;  
+  font-size: 120%;  background-color: #24252a;
+  cursor: pointer; color: rgba(256, 256, 256,0.6);
+}
+
+.container button { 
+    border-radius: 15px; margin: auto; align-self: center; text-align: center;
+  font-size: 120%; color:blue; font-weight: bold; background-color: #24252a;
+  cursor: pointer; color: white;  
+  box-shadow : 
+  -3px -5px 10px rgba(0, 0, 0, 0.35),
+  3px 5px 10px rgba(0, 0, 0, 0.35);
+} 
+
+form{ display: block;  }
+
+/*.flex form{ display: flex;  }*/
+/*
+form.flex { display: flex;  }*/
+div.block  { display: block; margin-top: 10px; margin-bottom: 5px;  }
+.answer{ padding: auto; 
+
+  justify-content: center;
+}
+
+
+.all_rooms{ background-color:  rgba(255, 255, 255, 0.8); position: relative; padding: auto; margin: auto; }

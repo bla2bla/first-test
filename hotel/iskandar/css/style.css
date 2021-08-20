@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{	overflow:visible; 
+		 transition: background-color 0.4s ease 0s;transition: color 0.4s ease 0s;
+	padding: 0;
+	margin: 0;
+}
+body{background-color:rgba(0,0,0,1); margin: 0; font-size: 18px;}
+
+.wrapper{ position: relative; 
+	background: url(../pics/setup2.jpg) no-repeat;
+	background-size: cover ;
+	height: 96vh; max-width: 100%;overflow:visible;
+	bottom:0px; overflow-y: hidden;
+  
+}
+.all {
+
+padding-bottom: 0px;
+}
+.navbar {
+	overflow:hidden;
+	position: fixed;
+	height: 80px;
+	width:100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	bottom:0px;
+ 
+}
+
+
+.footer{
+ background: rgba(0,0,0,1);
+	/* position: relative;  padding: 8px 0px; */ padding: 0px 0px;
+	 overflow: hidden;
+	height:4vh;
+	   bottom: 0;left: 0; margin-top: 0px;
+         color: white; width: 100%;
+ }    
+
+
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 30px 50px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{ overflow:visible;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active, 
+.navbar ul li a:hover{
+	background: rgba(255,0,0,0.8);
+	border-radius: 2px;
+}
+
+.navbar select {
+    border-radius: 7px; padding: 5px 5px;
+ font-size: 120%;  background-color: #24252a;
+  cursor: pointer; color: rgba(256, 256, 256,0.6);
+  }
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	font-family: "Lucida Handwriting";
+	color: rgba(80,40,250,1);
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	font-family: "Lucida Handwriting";
+	color: rgba(10,10,50,0.8);
+	font-size: 55px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center strong {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	width: auto;
+	text-align: center;
+
+	}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: rgba(255,0,0,0.95);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000; 
+}
+.buttons a{
+	color: #ffb3b3; text-decoration: none;
+}
+
+
+
+/*************************************************************************************************************/
+
+
+
+
+.content{ background-color: rgba(40,41,35,1);  padding-top: 10px; padding-bottom: 4px;
+	position: relative; 
+	font-family: sans-serif;
+	
+}
+
+.content button  { text-align: center; 	
+margin: auto
+}
+.content img  { border-radius: 10%;
+
+max-height: 250px;max-width: 250px; overflow: hidden;
+} 
+
+
+
+
+
+
+
+
+
+
+.block { margin: auto;
+width: auto; 
+}
+
+fieldset 
+{ 
+  align-content: center; justify-content: center; text-align: center;
+  width: 50vh; height: auto;
+  border: 0; border-radius: 16px; padding : 10px 20px;
+  background-color: rgba(255, 255, 255,0.8); 
+  font-weight: bold;
+  display: block;  position: relative; 
+  box-shadow : 
+  5px -10px 20px rgba(0, 0, 0, 0.25),
+  -5px 10px 20px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+ }
+
+/*************************************************************************************************************/
+
+/***********************************************************************************************************/
+	
+/********************/
+
+
+.box-button
+	{ 	
+		background: rgba(150,6,59,0.7);
+		margin-left: auto; margin-right: auto;
+
+		text-transform: uppercase;
+		
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+	
+button{
+	height: 50px;
+	width: 150px;
+	font-size: 120%;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: rgba(255,0,0,0.95);
+	outline: none;
+	cursor: pointer;
+	border: 0 solid rgba(255,0,0,0.95);
+	border-radius: 25px;
+	transition: .4s;
+	box-shadow : 
+  -3px -5px 10px rgba(0, 0, 0, 0.35),
+  3px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+button:hover{
+	background: #cc0000; 
+}
+	
+.block button  { 
+ margin-top: 0.3em; margin-bottom: 0.3em; bottom: 0;
+}
+	/***/
+.block{display: flex; margin: auto; width: 70%;
+justify-content: center; padding: 0;
+}
+
+/************** ALBUM **************  ALBUM **********  ALBUM  ****************  ALBUM ************/
+.album{display: block;}
+
+.album ul ,.album li{
+ width: auto; text-align: center; position: relative;
+ }
+.album ul{ 
+  margin: 0px 10px; display: flex;
+   }
+.album li{ margin: 10px;  width: 300px;   padding-top: 5px; padding-bottom: 8px; 
+	list-style: none;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow : 
+  5px 8px 10px rgba(0, 0, 0, 0.2),
+  5px 8px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+strong{ color: blue; font-size: 135%; }
+.album h3{ height:15px;
+	font-size: 120%; font-weight: bold; margin-bottom: 0.8em;
+}
+.album strong{
+	 margin-bottom: 0.4em;
+}
+hr{margin:0.5em ; background-color: rgba(150,6,59,0.7);	border-color: rgba(150,6,59,0.7); }
+
+
+.album  /* nav */ {
+	position: center; 
+
+}
+.album-image { 
+	position: relative; 
+	margin: auto; height: 250px; width: 250px;
+
+}
+.album-info{
+	margin-top: 0.3em;
+}
+
+.album-image p{
+	position: absolute; 
+  transform: translate(-50%, -50%);
+  left: 50%; top: 50%; 
+}
+
+.overlay {
+  position: absolute;
+
+  bottom: 0;
+  
+  right: 0;
+  
+  width: 100%;
+  opacity: 0.5;
+  border-radius: 10%;
+  transition: .5s ease;
+
+  background-color: #008CBA;
+}
+.album .overlay{
+	height: 100%;
+	opacity: 0;
+}
+.album-image:hover .overlay	
+{
+  opacity: 0.9;
+}
+
+/******************   LIST   ************************************/
+
+
+ /********************************************************************/
+
+#book{
+	  margin: auto;
+
+    display: block;
+    position: center;
+}
+
+.reserve{/* button t3 reserve*/
+	margin: 0px;
+	height: 50px;
+	width: 150px;
+	color: white;
+	background: rgba(50,178,200,1);
+}
+.alert{
+	margin: 0px;
+	width: 500px;
+	color: rgba(255,55,55,1.00);
+}
+.price{
+	color: green;
+}
+.inline{
+	display:inline;
+}
+label{
+	display:flex;
+}
+.room-details{
+}
+
+
+
+/*
+.flex {display: flex; }*/

@@ -1,1 +1,1 @@
-ntasti 1
+ntasti 2
